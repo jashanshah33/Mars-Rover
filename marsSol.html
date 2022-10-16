@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars Rover</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+ 
+    <style>
+        #top{
+            height: 25vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background:linear-gradient(45deg, rgb(218, 240, 249), rgb(248, 239, 223))
+        }
+        input{
+           height: 30px;
+           width: 200px;
+            margin-left: 5px;
+
+        }
+        #img-btn{
+            font-size: 22px;
+            cursor: pointer;
+
+        }
+        img{
+          margin: 1.5%;
+        }
+    </style>
+</head>
+<body>
+    <div id="top">
+        <diV>
+      <input id="enterSole" placeholder="Enter Sole (max.1000)"  type="number">
+      </diV>
+      <diV>
+     <input id="enterPage" placeholder="Enter page number to display"  type="number">
+      </diV>
+        <button id="img-btn">Get Image</button>
+    </div>
+
+    <div id="bottom">
+        <!-- <img src="" alt=""> -->
+    </div>
+    
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="marsSol.js"></script>
+</body>
+</html>
